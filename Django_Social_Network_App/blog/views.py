@@ -28,7 +28,6 @@ def first(request):
 """ Posts of following user profiles """
 @login_required
 def posts_of_following_profiles(request):
-
     profile = Profile.objects.get(user = request.user)
     users = [user for user in profile.following.all()]
     posts = []
