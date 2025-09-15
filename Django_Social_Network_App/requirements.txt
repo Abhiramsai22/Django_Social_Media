@@ -43,4 +43,5 @@ txaio==21.2.1
 typing-extensions>=4.0.0
 tzdata==2022.1
 urllib3==1.26.6
-zope.interface==5.4.0
+zope.interface==6.4.post2
+
